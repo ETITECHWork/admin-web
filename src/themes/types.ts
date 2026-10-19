@@ -4,7 +4,7 @@ import { ThemeOptions } from "@mui/material/styles";
 export type ThemeMode = "light" | "dark";
 export type ThemeFactory = (mode: ThemeMode) => ThemeOptions;
 export type ColorThemeName =
-  | "grommunio"
+  | "etiwork"
   | "green"
   | "magenta"
   | "purple"

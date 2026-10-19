@@ -31,7 +31,7 @@ const defaultState: ConfigState = {
   archiveWebAddress: '',
   rspamdWebAddress: '',
   defaultDarkMode: false,
-  defaultTheme: 'grommunio',
+  defaultTheme: 'etiwork',
   tokenRefreshInterval: 86400,
   customImages: {
   },

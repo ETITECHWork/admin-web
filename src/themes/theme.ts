@@ -3,7 +3,7 @@
 
 import { createTheme } from '@mui/material/styles';
 
-import grommunioTheme from './grommunio';
+import etiworkTheme from './etiwork';
 import greenTheme from './green';
 import magentaTheme from './magenta';
 import purpleTheme from './purple';
@@ -25,7 +25,7 @@ const createCustomTheme = (mode: ThemeMode, colorTheme: ColorThemeName) => {
  */
 function getThemeFromName(name: ColorThemeName): ThemeFactory {
   switch(name) {
-  case 'grommunio': return grommunioTheme;
+  case 'etiwork': return etiworkTheme;
   case 'green': return greenTheme;
   case 'magenta': return magentaTheme;
   case 'purple': return purpleTheme;
@@ -34,7 +34,7 @@ function getThemeFromName(name: ColorThemeName): ThemeFactory {
   case 'brown': return brownTheme;
   case 'bluegrey': return blueGreyTheme;
 
-  default: return grommunioTheme;
+  default: return etiworkTheme;
   }
 }
 

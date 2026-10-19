@@ -5,7 +5,7 @@ import defaultStyles from "./defaultStyles";
 import { ThemeMode } from "./types";
 
 
-const grommunioTheme = (mode: ThemeMode): ThemeOptions => ({
+const etiworkTheme = (mode: ThemeMode): ThemeOptions => ({
   components: {
     ...defaultStyles(mode),
     MuiAppBar: {
@@ -98,4 +98,4 @@ const grommunioTheme = (mode: ThemeMode): ThemeOptions => ({
   },
 });
 
-export default grommunioTheme;
+export default etiworkTheme;
